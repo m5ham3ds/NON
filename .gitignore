@@ -1,0 +1,32 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android Studio GradleDbProject
+.navigation/
+
+# Built overlays
+/build
+/app/build
+
+# Kotlin
+.kotlin/
+
+# Secrets / Environment files
+.env
+.env.example
+
+# EXPLICITLY INCLUDE GRADLE WRAPPER JAR
+!gradle/wrapper/gradle-wrapper.jar

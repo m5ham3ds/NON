@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WiFiCardMasterPro" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Brand Color (Elegant Deep Purple Accent) -->
+        <item name="colorPrimary">@color/wifi_purple_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/wifi_purple_container</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+        <!-- Secondary Brand Color (Purple motif for active highlights) -->
+        <item name="colorSecondary">@color/wifi_purple_primary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/wifi_purple_transparent</item>
+        <item name="colorOnSecondaryContainer">@color/white</item>
+
+        <!-- Tertiary Color (Warning / Ongoing Tests) -->
+        <item name="colorTertiary">@color/warning_orange</item>
+        <item name="colorOnTertiary">@color/black</item>
+
+        <!-- Background & Surface Colors (Deep space-violet themed) -->
+        <item name="android:windowBackground">@color/neutral_background</item>
+        <item name="android:colorBackground">@color/neutral_background</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorSurface">@color/neutral_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/neutral_background</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+
+        <!-- Outlines & Borders -->
+        <item name="colorOutline">@color/neutral_border</item>
+        <item name="colorOutlineVariant">@color/neutral_border</item>
+
+        <!-- Custom Bottom Navigation Style -->
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+
+        <!-- Error State -->
+        <item name="colorError">@color/error_red</item>
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Status Bar & Navigation Bar -->
+        <item name="android:statusBarColor">#FF000000</item>
+        <item name="android:navigationBarColor">@color/neutral_surface</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorSecondaryContainer">@color/wifi_purple_transparent</item>
+        <item name="colorOnSecondaryContainer">@color/white</item>
+    </style>
+</resources>

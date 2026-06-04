@@ -1,0 +1,8 @@
+{
+  "name": "WiFi Master Pro",
+  "description": "WiFi card generation, hidden router login testing, and profiles security manager.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

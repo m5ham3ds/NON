@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi Card Master Pro</string>
+    <string name="app_subtitle">أداة فحص بطاقات الهوت سبوت</string>
+    <string name="default_router_name">الراوتر الافتراضي</string>
+
+    <string name="menu_router_manager">إدارة أجهزة الراوتر</string>
+    <string name="menu_additional_options">خيارات إضافية</string>
+    <string name="menu_home">الرئيسية</string>
+    <string name="menu_test">الاختبار</string>
+    <string name="menu_history">السجلات</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="menu_about">حول التطبيق</string>
+    <string name="menu_exit">الخروج</string>
+
+    <string name="status_connected">متصل بجهاز الراوتر</string>
+    <string name="status_disconnected">غير متصل</string>
+
+    <string name="channel_test_name">خدمة الاختبار الجاري</string>
+    <string name="channel_test_desc">تحديثات مستمرة حول تقدم الفحص والخيارات الإضافية</string>
+    <string name="channel_result_name">نتائج الاختبار الفوري</string>
+    <string name="channel_result_desc">إشعارات عند نجاح أو فشل الكروت المحددة</string>
+
+    <string name="notification_title">فاحص بطاقات WiFi</string>
+    <string name="notification_content">التقدم: %1$d/%2$d | ناجحة: %3$d | فاشلة: %4$d</string>
+    <string name="notification_success_title">تم العثور على بطاقة صالحة!</string>
+    <string name="notification_failure_title">فشل اختبار البطاقة</string>
+    <string name="notification_result_body">كود البطاقة المكتشفة: %1$s</string>
+
+    <string name="btn_cancel">إلغاء</string>
+    <string name="btn_save">حفظ</string>
+    <string name="btn_close">إغلاق</string>
+    <string name="action_pause_icon">إيقاف مؤقت</string>
+    <string name="action_resume_icon">استئناف</string>
+
+    <string name="history_cleared">تم مسح السجل بنجاح</string>
+    <string name="router_added">تمت إضافة الراوتر الجديد</string>
+    <string name="router_updated">تم تحديث بيانات الراوتر</string>
+    <string name="router_deleted">تم حذف ملف الراوتر</string>
+
+    <string name="pref_category_appearance">المظهر والتصميم</string>
+    <string name="pref_theme">اختيار السمة</string>
+    <string name="pref_language">لغة التطبيق</string>
+    <string name="pref_category_notifications">الإشعارات والتنبيهات</string>
+    <string name="pref_vibrate">الاهتزاز عند الحصول على بطاقة صالحة</string>
+    <string name="pref_sound">تشغيل صوت للتنبيه</string>
+    <string name="pref_category_data">إدارة البيانات</string>
+    <string name="pref_manage_routers">إعداد ملفات الراوتر</string>
+    <string name="pref_clear_history">مسح سجل الجلسات بالكامل</string>
+    <string name="pref_export_db">تصدير نسخة احتياطية من السجلات</string>
+    <string name="pref_category_about">حول</string>
+    <string name="pref_version">رقم الإصدار الحالي</string>
+    <string name="pref_github">مستودع الكود على جيت هاب</string>
+
+    <string name="msg_confirm_clear">هل أنت متأكد تماماً من رغبتك في حذف جميع السجلات؟</string>
+    <string name="about_title">حول التطبيق</string>
+    <string name="about_message">برنامج WiFi Card Master Pro هو أداة متكاملة وذكية مخصصة لاختبار بطاقات هوت سبوت للراوتر، مع أتمتة كاملة وحفظ تلقائي للبطاقات الناجحة في قواعد بيانات مشفرة وآمنة.</string>
+</resources>

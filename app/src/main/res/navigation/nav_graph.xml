@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home_fragment">
+
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.example.presentation.home.HomeFragment"
+        android:label="الرئيسية"
+        tools:layout="@layout/fragment_home">
+        <argument
+            android:name="selectedRouterId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+        <action
+            android:id="@+id/action_home_fragment_to_test_fragment"
+            app:destination="@id/nav_test_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_test_fragment"
+        android:name="com.example.presentation.test.TestFragment"
+        android:label="الاختبار"
+        tools:layout="@layout/fragment_test">
+        <argument
+            android:name="routerId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+        <argument
+            android:name="cardList"
+            app:argType="string[]"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="delayMs"
+            app:argType="long"
+            android:defaultValue="500L" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_history_fragment"
+        android:name="com.example.presentation.history.HistoryFragment"
+        android:label="السجلات"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_settings_fragment"
+        android:name="com.example.presentation.settings.SettingsFragment"
+        android:label="الإعدادات"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_settings_to_routerManager"
+            app:destination="@id/nav_router_manager_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_router_manager_fragment"
+        android:name="com.example.presentation.settings.RouterManagerFragment"
+        android:label="إدارة أجهزة الراوتر"
+        tools:layout="@layout/fragment_router_manager" />
+
+    <fragment
+        android:id="@+id/nav_router_form_fragment"
+        android:name="com.example.presentation.settings.RouterFormFragment"
+        android:label="تعديل بيانات الراوتر"
+        tools:layout="@layout/fragment_router_form">
+        <argument
+            android:name="routerId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+</navigation>

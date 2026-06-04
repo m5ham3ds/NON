@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors (Elite Purple / Violet motif from screenshots) -->
+    <color name="wifi_purple_primary">#FF5E35B1</color>     <!-- Elegant Deep Purple Accent (e.g. Start Test / Highlight) -->
+    <color name="wifi_purple_light">#FF9C82FA</color>       <!-- Light Lavender/Violet for titles & accents in dark theme -->
+    <color name="wifi_purple_dark">#FF311B92</color>        <!-- Dark Violet/Indigo background containers -->
+    <color name="wifi_purple_container">#FF3C2785</color>  <!-- Pill-highlight purple container for active items -->
+    <color name="wifi_purple_transparent">#405E35B1</color>  <!-- Transparent/Subtle purple for active navigation item background -->
+    
+    <!-- Status / Alert Colors -->
+    <color name="success_green">#FF4CAF50</color>           <!-- Success (Spring Green / Emerald-500) -->
+    <color name="success_green_light">#FF81C784</color>     <!-- Light Success for dark theme -->
+    <color name="success_green_badge">#FF2E7D32</color>     <!-- Safe Dark Green for indicator card metrics -->
+    
+    <color name="warning_orange">#FFFF9800</color>          <!-- Warning / Running (Orange-500) -->
+    <color name="warning_orange_dark">#FFEF6C00</color>     <!-- Deep Orange for warnings -->
+    
+    <color name="error_red">#FFE53935</color>               <!-- Error State / Stop / Cancel (Red-600) -->
+    <color name="error_red_light">#FFFF8A80</color>         <!-- Light Red accent -->
+    <color name="error_red_dark">#FFC62828</color>          <!-- Crimson for fail labels or panels -->
+
+    <!-- Base / Neutral motif - Deep Charcoal / Dark Space Violet from screenshots -->
+    <color name="neutral_background">#FF12111A</color>     <!-- Unified Dark Background -->
+    <color name="neutral_surface">#FF1A1828</color>        <!-- Lighter Card / Section Surface -->
+    <color name="neutral_border">#FF2E2A40</color>         <!-- Perfect border gray-violet outline -->
+    <color name="neutral_border_light">#FF45415B</color>   <!-- High-contrast border outline -->
+
+    <!-- Light Theme Neutrals -->
+    <color name="light_background">#FFF8F9FA</color>       <!-- Light grey background -->
+    <color name="light_surface">#FFFFFFFF</color>          <!-- Pure white surface and cards -->
+    <color name="light_surface_variant">#FFF1F3F5</color>  <!-- Light-accent grey grey -->
+    <color name="light_text_primary">#FF212529</color>    <!-- Dark charcoal main text -->
+    <color name="light_text_secondary">#FF6C757D</color>  <!-- Medium grey secondary text -->
+    <color name="light_border">#FFE9ECEF</color>           <!-- Soft border line -->
+    <color name="light_purple_transparent">#195E35B1</color> <!-- 10% opacity violet for selected tabs in light mode -->
+
+    <color name="text_primary">#FFFFFFFF</color>            <!-- Primary High-emphasis text -->
+    <color name="text_secondary">#FF9C97B2</color>          <!-- Secondary Lavender text for details/subtitles -->
+
+    <!-- Pure shades -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
